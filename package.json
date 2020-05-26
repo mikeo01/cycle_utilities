@@ -1,0 +1,28 @@
+{
+  "name": "cycle-utilities",
+  "version": "1.0.0",
+  "description": "Library containing higher order functions around Cycle.js streams (xstream)",
+  "scripts": {
+    "test": "node_modules/.bin/ts-mocha test/**/*.spec.ts",
+    "build": "tsc --declaration"
+  },
+  "repository": {
+    "type": "git",
+    "url": "http://ccgebhfs01:9418/ccg/cycle_utilities.git"
+  },
+  "author": "Michael Long <michael.long@ccg.co.uk>",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/chai": "^4.2.11",
+    "@types/expect": "^24.3.0",
+    "@types/mocha": "^7.0.2",
+    "chai": "^4.2.0",
+    "mocha": "^7.1.2",
+    "ts-mocha": "^7.0.0",
+    "tsconfig-paths": "^3.9.0",
+    "typescript": "^3.9.3"
+  },
+  "dependencies": {
+    "xstream": "^11.11.0"
+  }
+}
